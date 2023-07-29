@@ -2,7 +2,7 @@
 all tasks of oasis internship
 ### oasis task1 Calculator
 a calculator UI using javascript and html
-![calculator image] https://github.com/yogenps48/oasis_project/blob/main/calculator.png
+![https://github.com/yogenps48/oasis_project/blob/main/calculator.png] 
 ### oasis task2 Tribute page
 a tribute page with some design
 ### oasis task3 To Do List
