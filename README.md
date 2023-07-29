@@ -1,6 +1,6 @@
 # oasis_project
 all tasks of oasis internship
-#oasis task1 Calculator
+##oasis task1 Calculator
 a calculator UI using javascript and html
 #oasis task2 Tribute page
 a tribute page with some design
