@@ -1,0 +1,275 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10px;
+}
+
+body {
+    margin-top: 0;
+    background: rgb(2, 0, 36);
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+.title{
+    text-align: center;
+}
+.input-container {
+    width: 400px;
+    background-color: rgb(212, 59, 59);
+    left: 0;
+    top: 30;
+    padding: 10px;;
+    margin: auto;
+    text-align: center;
+    border-radius: 15px;
+    margin:auto;
+}
+.task-input {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border-style: groove;
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.task-desc {
+    width: 80%;
+    display: block;
+    margin-left: 10%;
+    height: 100px;
+}
+
+.addtask-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(41, 199, 5);
+    color: black;
+
+    font-weight: bolder;
+    font-size: large;
+
+}
+.addtask-btn:hover {
+    background-color: rgb(31, 154, 3);
+}
+
+.tasks-container {
+    margin:auto;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-around;
+}
+.pending-container {
+    width: 400px;
+    height: 500px;
+    margin:auto;
+    overflow-y: auto;
+}
+
+.completed-container {
+    width: 400px;
+    margin:auto;
+    height: 500px;
+    overflow-y: auto;
+}
+.item-container {
+
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(37, 194, 40)
+}
+
+.active,
+.item-container:hover {
+    background-color: rgb(120, 238, 90);
+}
+
+.item-container2 {
+
+    padding: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(203, 104, 23)
+}
+
+.active,
+.item-container2:hover {
+    background-color: rgb(243, 189, 51);
+}
+
+.task-title {
+    overflow: hidden;
+    width: 300px;
+}
+
+.edit-task-input {
+    width: 300px;
+    border-radius: 5px;
+    display: none;
+
+}
+
+.checkbox {
+    height: 30px;
+    width: 30px;
+}
+
+.box-btn {
+    padding:3px;
+    border-radius: 5px;
+    margin:3px;
+}
+.del-btn{
+    background-color: red;
+    color:aliceblue;
+}
+.del-btn:hover{
+    background-color: rgb(255, 133, 133);
+    color:aliceblue;
+}
+.content {
+    display: none;
+    background-color: rgb(7, 191, 191);
+}
+
+.edit-task-desc {
+    width: 100%;
+    display: none;
+}
+
+@media only screen and (min-width:1260px) {
+    .title {
+        width: 100%;
+        text-align: center;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: rgb(183, 242, 244);
+    }
+
+    .input-container {
+        width: 400px;
+        height: 500px;
+        background-color: rgb(212, 59, 59);
+        position: fixed;
+        left: 0;
+        top: 30;
+        margin: auto;
+        text-align: center;
+        border-radius: 15px;
+        margin-left: 10px;
+    }
+
+    .task-input {
+        padding: 10px 5px;
+        border-radius: 5px;
+        border-style: groove;
+        display: block;
+        width: 80%;
+        margin-left: 10%;
+
+    }
+
+    .task-desc {
+        width: 80%;
+        display: block;
+        margin-left: 10%;
+        height: 100px;
+    }
+
+    .addtask-btn {
+        padding: 5px 10px;
+        border-radius: 5px;
+        background-color: rgb(41, 199, 5);
+        color: black;
+
+        font-weight: bolder;
+        font-size: large;
+
+    }
+
+    .addtask-btn:hover {
+        background-color: rgb(31, 154, 3);
+    }
+
+    .tasks-container {
+        margin-left: 420px;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .pending-container {
+        width: 400px;
+        height: 500px;
+        overflow-y: auto;
+    }
+
+    .completed-container {
+        width: 400px;
+        height: 500px;
+        overflow-y: auto;
+    }
+
+    .item-container {
+
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(37, 194, 40)
+    }
+
+    .active,
+    .item-container:hover {
+        background-color: rgb(120, 238, 90);
+    }
+
+    .item-container2 {
+
+        padding: 5px;
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(203, 104, 23)
+    }
+
+    .active,
+    .item-container2:hover {
+        background-color: rgb(243, 189, 51);
+    }
+
+    .task-title {
+        overflow: hidden;
+        width: 300px;
+    }
+
+    .edit-task-input {
+        width: 300px;
+        border-radius: 5px;
+        display: none;
+
+    }
+
+    .checkbox {
+        height: 30px;
+        width: 30px;
+    }
+
+    .box-btn {}
+
+    .content {
+        display: none;
+        background-color: rgb(7, 191, 191);
+    }
+
+    .edit-task-desc {
+        width: 100%;
+        display: none;
+    }
+}

@@ -1,0 +1,42 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 ,h3, h4{
+    text-align: center;
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+.wrapper{
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(10,10,74,1) 0%, rgba(0,0,0,1) 100%);
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.image-container{
+    display: flex;
+
+    width:50%;
+
+}
+.image{
+    margin:20px;
+    width:100%;
+    border-radius: 20px;
+    transition: 1s;
+}
+.image:hover{
+    
+    transform:scale(1.05);
+}
+.para-container{
+    width:50%;
+    margin:10px;
+    
+}
+.para-container *{
+    font-family:'Courier New', Courier, monospace;
+}
